@@ -1,0 +1,178 @@
+body{
+   background-color: #f8f8f8;
+}
+
+.botao{
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#1ba31b;
+    padding: 7px;
+    border-right: solid hsl(124, 81%, 11%) 4px;
+    border-bottom: solid  hsl(124, 81%, 11%) 4px;
+    border-radius: 90px;
+    text-decoration: none;
+    margin: 10px;
+    display: inline-block;   
+}
+.botao:hover{
+    background-color: #1ba31b;;
+    border-left: solid hsl(124, 81%, 11%) 4px;
+    border-top: solid hsl(124, 81%, 11%) 4px;
+    border-bottom: 0px;
+    border-right: 0px; 
+    
+}
+
+#criar-cursos{
+    color: white;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+    display: inline-block;
+    margin: 10px;   
+    width: 100px;
+    text-align: center;
+    background-color: rgb(49, 127, 228);
+    padding: 7px;
+    border-radius: 90px;
+    border-right: 4px rgb(3, 3, 66) solid;
+    border-bottom: 4px rgb(3, 3, 66) solid;
+}
+
+#criar-cursos:hover{
+    background-color: rgb(49, 127, 228);
+    border-left: solid rgb(3, 3, 66) 4px;
+    border-top: solid rgb(3, 3, 66) 4px;
+    border-bottom: 0px;
+    border-right: 0px; 
+
+}
+
+#codigo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e0e0e0;
+    padding: 10px;
+    width: 140px;
+    border-left: rgb(53, 176, 53) solid 4px;
+}
+
+#codigo:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #8f8e8e;
+    padding: 10px;
+    width: 140px;
+    border-left: rgb(53, 176, 53) solid 4px;
+}
+
+#Categoria{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#e0e0e0;
+    padding: 10px;
+    width: 140px;
+    border-left: yellow solid 4px;
+
+}
+
+#Categoria:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #8f8e8e;
+    padding: 10px;
+    width: 140px;
+    border-left: yellow solid 4px;
+}
+
+#nome{font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#e0e0e0;
+    padding: 10px;
+    width: 140px;
+    border-left: rgb(50, 187, 255) solid 4px;
+}
+
+#nome:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #8f8e8e;
+    padding: 10px;
+    width: 140px;
+    border-left: rgb(50, 187, 255) solid 4px;
+}
+#thumb{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e0e0e0;
+    padding: 10px;
+    width: 140px;
+    border-left: rgb(255, 50, 228) solid 4px;  
+}
+#thumb:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #8f8e8e;
+    padding: 10px;
+    width: 140px;
+    border-left: rgb(255, 50, 228) solid 4px;  
+}
+
+#duracao{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #e0e0e0;
+    padding: 10px;
+    width: 140px;
+    border-left: rgb(255, 50, 50) solid 4px;      
+}
+#duracao:hover{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #8f88e8;
+    padding: 10px;
+    width: 140px;
+    border-left: rgb(255, 50, 50) solid 4px;      
+}
+
+.number{
+    border-left: 4px rgb(53, 176, 53) solid;    
+}
+.categoriaCLS{
+    border-left: 4px yellow solid; 
+}
+.linguagem{
+    border-left: 4px rgb(50, 187, 255) solid;
+}
+.imagem{
+    border-left:rgb(255, 50, 228) solid 4px;
+}
+.duracaoCLS{
+    border-left: rgb(255, 50, 50) solid 4px
+}
+
+.visualizar{
+    background-color: greenyellow;
+    border: 1px;
+    border-radius:90px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black
+}
+table{
+    width: 100%;
+    border: 0px solid black;
+}
+
+tr{
+    background-color:#e0e0e0;
+    border-left: 4px rgb(209, 208, 208) solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+tr:hover{
+    background-color: #8f8e8e;
+    border-left: 4px rgb(209, 208, 208) solid;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+td{
+    text-align: center; 
+}
+
+
+
+    

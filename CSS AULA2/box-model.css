@@ -1,0 +1,41 @@
+
+.margin-info{
+    background-color: #f5c6cb;
+    margin: ;
+}
+
+.border-info{
+    background-color: #ffeeba;
+}
+
+.padding-info{
+    background-color: #c3e6cb
+}
+
+.conteudo{
+    background-color: #d4edda
+}
+
+.content{
+    background-color: #d4edda;
+    padding: 10px;
+    border: 2px solid #444;
+}
+
+.container{
+
+    width: 300px;
+    background-color: #f0f0f0;
+    margin: 50px;
+    border: 2px solid #ffeeba;
+    padding: 50px;
+
+}
+
+.box-info{}
+
+
+body{
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+}
