@@ -1,0 +1,55 @@
+.borda-topo, .borda-direita, .borda-base, .borda-esquerda, .borda-completa, .borda-dashed, .borda-dotted{
+        display: block;
+        margin-bottom: 10px;
+}
+
+
+
+
+.borda-topo{
+        border-top: 2px;
+        border-top-color: blue;
+        border-top-style: solid;
+}
+
+.borda-direita{
+        border-right-width: 4px;
+        border-right-color: green;
+        border-right-style: solid;
+}
+
+.borda-base{
+        border-bottom-width: 3px;
+        border-bottom-color: pink;
+        border-bottom-style: solid;
+
+}
+
+.borda-esquerda{
+        border-left-width: 6px;
+        border-left-color: rgb(223, 19, 19);
+        border-left-style: solid;
+
+
+    }
+
+.borda-completa{
+    border: 2px;
+    border-color: rgb(87, 9, 26);
+    border-style: solid;
+
+}
+
+.borda-dashed{
+        border: 2px;
+        border-color: blue;
+        border-style: dashed;
+}
+
+.borda-dotted{
+
+        border:2px;
+        border-color: black;
+        border-style: dotted;
+        
+}
