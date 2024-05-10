@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Cadastro de Curso</title>
-    <link type="text/css" rel="stylesheet" href="cadastro-curso.css">
+    <link type="text/css" rel="stylesheet" href="CADASTRO-CURSO-DIVIDIDO2.css">
     <link type="image/x-icon" rel="icon" href="curso.ico">
 </head>
 
@@ -13,13 +13,21 @@
     <a href="index.html">Menu</a>
     <span>Tela de cadastro de curso</span>
     <form action="ArmazenarCurso.html" method="post">
+
+        <div class="esquerda">
             <div>
                 <label for="campo-nome" class="label-campo">Nome</label>
-                <input type="text" id="campo-nome" name="nome" required class="campo">
+                <input type="text" id="campo-nome" name="nome" class="campo" required>
             </div>
             <div>
+                <label for="campo-duracao" class="label-campo">Duração</label>
+                <input type="time" id="campo-duracao" name="duracao" class="campo" required>
+            </div>
+        </div>
+        <div>
+            <div class="direita">
                 <label for="campo-categoria" class="label-campo">Categoria</label>
-                <select id="campo-categoria" class="campo" name="categoria" required>
+                <select id="campo-categoria" name="categoria" class="campo" required>
                     <optgroup label="Desenvolvimento">
                         <option value="Back-end">Back-end</option>
                         <option value="Front-end">Front-end</option>
@@ -31,20 +39,19 @@
                     </optgroup>
                 </select>
             </div>
+
+
             <div>
-                <label for="campo-duracao" class="label-campo">Duração</label>
-                <input type="time" id="campo-duracao" name="duracao" class="campo" required>
+                <label for="campo-thumb" class="label-campo label-campo-upload"> <i class="fa-solid fa-upload"></i>
+                    Selecione o arquivo
+                </label>
+                <input type="file" id="campo-thumb" name="thumb" class="campo-upload" required>
             </div>
-        <div>
-            <label for="campo-thumb" class="botao-selecionar"> 
-                fazer upload
-                <i class="fa-solid fa-upload" class="botao-selecionar"></i>
-            </label>
-            <input type="file" id="campo-thumb" name="thumb" required class="botao-arquivo" >
         </div>
-        <button type="submit" class="button-cadastrar" >Cadastrar</button>
-        <p></p>
-        <button type="button" class="button-cancelar"> Cancelar </button>
-    </form>
-    <script src="https://kit.fontawesome.com/f630e6180e.js" crossorigin="anonymous"></script>
+<div class="botoes">
+    <button type="button" class="button-cancelar"><i class="fa-solid fa-ban"></i> Cancelar</button>
+    <button type="submit" class="button-cadastrar"> Cadastrar</button>
+</form>
+</div>
+    <script src="https://kit.fontawesome.com/54a2c7ee99.js" crossorigin="anonymous"></script>
 </body>
