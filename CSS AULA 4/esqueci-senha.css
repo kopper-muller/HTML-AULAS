@@ -1,0 +1,78 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#corpo-form{
+    display: inline-block;
+    padding: 150px;
+    padding-left: 470px;
+
+}
+#div-email{
+    margin: 10px;
+    width: 170px
+}
+#div-cpf{
+    margin: 10px;
+    width: 170px
+}
+#div-data{
+    margin: 10px;
+    width: 170px
+}
+#div-senha1{
+    margin: 10px;
+    width: 170px
+}
+#div-senha2{
+    margin: 10px;
+    width: 180px
+}
+.campo{
+    border: 1px blue solid;
+    border-radius: 10px;
+    transition: color 0.5s ease, transform 0.5s ease, border 0.9s ease;
+    width: 200px
+}
+
+.campo:hover{
+    background-color:  white;
+    color: blue;
+    transform: scale(1.06);
+    border: 2px blue solid
+}
+
+#botao-submit{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: medium;
+    margin: 10px;
+    padding: 2px;
+    border: 2px blue solid;
+    border-radius: 13px;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+#botao-submit:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: blue;
+}
+
+#cancelar{
+    margin: 10px;
+    padding: 2px;
+    border: 2px red solid;
+    border-radius: 15px;
+    background-color: white;
+    color: red;
+    text-decoration: none;
+    transition: color 0.5s ease, transform 0.5s ease;
+}
+
+#cancelar:hover{
+    transform: scale(1.1);
+    color: white;
+    background-color: red;
+}

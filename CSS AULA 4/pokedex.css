@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'Balance Groovy';
+    src: url("Balance\ Groovy\ -\ sans.ttf") format("truetype");
+    /* You can include other font formats (e.g., woff, woff2) for better browser compatibility */
+}
+
+body {
+    font-family: 'Balance Groovy', sans-serif; /* Use the custom font for the body text */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url('your-video.mp4') no-repeat center center fixed;
+    background-size: cover;
+}
+
+table{
+    margin-left: 10px;
+    border: 1px black solid;
+    border-radius: 10px;
+}
+
+.numero{
+    display: block;
+    align-items: center;
+    color: grey;
+    font-size: small;
+}
+
+.imagem{
+    border-radius: 10px;
+    background-color: rgba(117, 117, 117, 0.514);
+
+}
+.grass{
+    text-align: center;
+    display: inline-block ;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 40px;
+    background-color: green;
+}
+.poison{
+    text-align: center;
+    display: inline-block ;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50px;
+    background-color: purple;
+    
+}
+
+.name{
+    color: black;
+    font-size: large;
+}
+
+.tipos{
+    font-size: small;
+    
+}

@@ -1,0 +1,52 @@
+<!-- 
+- E-mail
+- Cpf
+- Data de Nascimento
+- Nova Senha
+- Confirmação de senha
+- Botão de alterar com submit
+- Tag com o texto "Cancelar", com a ação de voltar -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>esqueci-senha</title>
+    <link rel="stylesheet" href="esqueci-senha.css">
+</head>
+
+<body>
+    <div id="corpo-form">
+        <form action="exercicio-tela-login.html" method="get" target="_self"></form>
+        <div id="div-email">
+            <label for="campo-email">Digite seu E-mail</label>
+            <input type="email" name="email" class="campo" id="campo-email">
+        </div>
+        <div id="div-cpf">
+            <label for="campo-CPF">Digite seu CPF</label>
+            <input type="number" name="cpf" class="campo" id="campo-CPF">
+        </div>
+        <div id="div-data">
+            <label for="campo-data">Sua data de nascimento</label>
+            <input type="date" name="data-nascimento" class="campo" id="campo-data">
+        </div>
+        <div id="div-senha1">
+            <label for="new-pass-camp">Digite sua nova senha</label>
+            <input type="password" id="new-pass-camp" name="senha" class="campo">
+        </div>
+        <div id="div-senha2">
+            <label for="verify-pass-camp">Verifique sua nova senha</label>
+            <input type="password" id="verify-pass-camp" name="senha" class="campo">
+        </div>
+        <div>
+            <button type="submit" id="botao-submit">Enviar</button>
+        </div>
+        <div>
+            <a href="exercicio-tela-login.html" id="cancelar">Cancelar e retornar para o login</a>
+        </div>
+    </div>
+    
+</body>
+
+</html>
