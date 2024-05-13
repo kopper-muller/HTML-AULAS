@@ -15,7 +15,7 @@ body {
 
 table{
     margin-left: 10px;
-    border: 1px black solid;
+    border: 0px black solid;
     border-radius: 10px;
 }
 
@@ -57,4 +57,14 @@ table{
 .tipos{
     font-size: small;
     
+}
+
+td{
+    background-color: rgb(210, 207, 207);
+    padding: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+}
+div{
+    padding-top: 5px;
 }
