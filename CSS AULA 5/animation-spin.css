@@ -1,0 +1,23 @@
+.carregamento{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 16px solid #f3f3f3;
+    border-top: solid 16px rgb(39, 160, 236);
+    animation: spinner 1s normal linear infinite;
+}
+
+/* normal- nomral
+    alternate- no final aplica o reverso
+    reverse- segue animação inversa 
+    alternate-reverse- faz inverso depois normal*/
+
+@keyframes spinner {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}

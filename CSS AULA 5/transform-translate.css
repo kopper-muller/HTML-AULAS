@@ -1,0 +1,19 @@
+.translate-box{
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    transition: transform 0.5s ease-in-out;
+}
+
+/*  ease: começa devagar, acelera e desacelera ao final
+    ease-in: começa devagar e acelera ate o final
+    ease-out: começa rapido e desacelera
+    ease-in-out: para bruscamente após acelerar
+    linear: velocidade constante
+    step-start: Animação salta diretametne para o fim, sem transição intermediária 
+    step-end: Animação fica no estado inicial durante tod a duração e só salta para o final nos momentos finais
+    steps(int, start|end): Divide a animação em etapas específicas, proporcionando um efeito de passos */
+
+.translate-box:hover{
+
+}

@@ -1,0 +1,11 @@
+div.rotate{
+    width: 40px;
+    height: 40px;
+    background-color: lightblue;
+    transition: transform 5s ease-in;
+
+}
+
+div.rotate:hover{
+    transform: rotate(45deg);   
+}
