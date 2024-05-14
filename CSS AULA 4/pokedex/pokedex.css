@@ -1,0 +1,122 @@
+@font-face {
+    font-family: 'Balance Groovy';
+    src: url("Balance\ Groovy\ -\ sans.ttf") format("truetype");
+    /* You can include other font formats (e.g., woff, woff2) for better browser compatibility */
+}
+
+body {
+    font-family: 'Balance Groovy', sans-serif;
+    /* Use the custom font for the body text */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: url('your-video.mp4') no-repeat center center fixed;
+    background-size: cover;
+    background-image: url(bckground.png);
+    overflow: auto;
+}
+
+h1 {
+    font-size: 100px;
+    text-align: center;
+    color: rgb(0, 89, 255);
+    text-shadow:
+    3px 3px 0 yellow,
+    -3px 3px 0 yellow,
+    -3px -3px 0 yellow,
+    3px -3px 0 yellow;
+}
+
+
+.numero {
+    display: block;
+    align-items: center;
+    color: grey;
+    font-size: small;
+}
+
+img {
+    border-radius: 10px;
+    background-color: rgba(117, 117, 117, 0.514);
+    border: 2px solid grey;
+}
+
+.grass {
+    text-align: center;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 10px;
+    width: 40px;
+    background-color: rgb(35, 188, 35);
+    color: white;
+}
+
+.poison {
+    text-align: center;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 10px;
+    width: 50px;
+    background-color: purple;
+    color: white;
+}
+
+.fire {
+    text-align: center;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 10px;
+    width: 50px;
+    background-color: rgb(255, 85, 0);
+    color: rgb(255, 255, 255);
+}
+
+.water {
+    text-align: center;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 10px;
+    width: 50px;
+    background-color: rgb(0, 195, 255);
+    color: rgb(0, 0, 0);
+}
+
+.bug {
+    text-align: center;
+    display: inline-block;
+    padding: 3px;
+    border-radius: 10px;
+    width: 50px;
+    background-color: rgb(65, 110, 11);
+    color: rgb(255, 255, 255);
+}
+
+.name {
+    color: black;
+    font-size: large;
+}
+
+.tipos {
+    font-size: small;
+
+}
+
+.pokemon{
+    background-color:rgb(243, 242, 242);
+    display: inline-block;
+    border: 2px grey solid;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 6px;
+}
+#body-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    margin-left: 16%;
+    margin-right: 16%
+/* lembre-se de pesquisar VH x % x PX x VW */
+}
