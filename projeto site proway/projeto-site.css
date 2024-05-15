@@ -1,0 +1,101 @@
+body{
+    font-size: 22px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif; 
+    color: rgb(59, 59, 59);
+}
+
+#top-side{
+    margin-bottom: 100px;
+}
+
+.botoes{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+}
+.botoes div{
+    align-items: center;
+    display: flex;
+    padding-left: 40px;
+    border: 1px black solid;
+    border-right: 0px;
+    border-left: 0px;
+    cursor: pointer;
+}
+.botoes span{
+    transition: transform 0.7s ease, color 1.4s ease
+}
+.botoes span:hover{
+    transform: scale(1.2);
+    color: rgb(32, 82, 151);
+}
+
+.icon{
+    height: 20px;
+    cursor: pointer;
+    padding-right: 5px;
+}
+#ead{
+    padding-left: 5px;
+}
+#titulo{
+    text-align: center;
+}
+
+.nome-curso{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.imagem-curso{
+    height: 200px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.carta-curso{
+    background-color: rgb(223, 223, 223);
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    border-radius: 10px;
+    text-align: center;
+    max-width: min-content;
+}
+
+.lista-cursos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.texto-curso{
+   margin: 10px;
+}
+.barra-pesquisa{
+    font-size: 22px;
+    line-height: 1.1666666667;
+    font-weight: 600;
+    letter-spacing: .009em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+    position: relative;
+    z-index: 1;
+    margin-inline-start: -30px;
+    margin-inline-end: -31px;
+    padding-inline-start: 34px;
+    padding-inline-end: 34px;
+    width: 100%;
+    height: 80%;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: 2px black solid;
+    border-radius: 90px;
+    color: var(--r-globalnav-search-input-value-color);
+    line-height: 1;
+    outline: none;
+    margin-left: 10px;
+}
