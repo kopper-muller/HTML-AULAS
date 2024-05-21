@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+    font-family: SF Pro Display,SF Pro Icons,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: aliceblue;
+}
+
+.conteiner {
+    display: flex;
+}
+
+.cadastro-clientes {
+    width: 50%;
+    height: 100vh;
+    padding: 10px;
+
+}
+
+
+.lista-clientes {
+    width: 50%;
+    height: 100vh;
+    padding: 10px;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 0px;
+
+}
+
+.table tr th,
+.table tr td{
+padding: 10px;
+}
+
+.botao-editar,
+.botao-apagar{
+    width: 80px;
+    height: 25px;
+    border-radius: 8px;
+    background-color: white;
+}
+
+.botao-editar{
+    background-color: white;
+    border: 1px solid #007bff;
+    color:#007bff;
+    
+}
+
+.botao-apagar{
+    background-color: white;
+    border: 1px solid #dc3545;
+    color: #dc3545;
+}
+
+.botao-editar:hover,
+.botao-apagar:hover{
+    background-color:#dc3545 ;
+    color: white;
+}
+
+.botao-editar:hover{
+    background-color: #007bff;
+}
+
+.table thead tr{
+    background-color: red;
+}
+
+.titulo-lista-clientes{
+    text-align: center;
+}
+.cadastro-clientes div.cliente-tipo{
+    display: flex;
+    flex-direction: row;
+}
+.cadastro-clientes div{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+#botao-salvar{
+    background-color: #555;
+    border: 1px solid #555;
+    border-radius: 5px;
+    padding: 8px;
+    transition: all 0.4s ease;
+    color: white;
+}
+#botao-salvar:hover{
+    background-color: #000000;
+    transform: scale(1.08) ;
+    font-weight: bold;
+}
+div.botao{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+}
+.inactive{
+    display: none !important;
+}
+
+
+.table tbody tr:hover{
+    background: #6c6767;
+}
